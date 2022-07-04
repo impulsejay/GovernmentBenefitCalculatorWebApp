@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "GovernmentBenefitCalculatorWebApp", "GovernmentBenefitCalculatorWebApp.njsproj", "{86C890BC-F550-4EFB-B7DB-FD39C9C51CF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86C890BC-F550-4EFB-B7DB-FD39C9C51CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86C890BC-F550-4EFB-B7DB-FD39C9C51CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86C890BC-F550-4EFB-B7DB-FD39C9C51CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86C890BC-F550-4EFB-B7DB-FD39C9C51CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76541D7C-8838-4DC0-97DA-5C9346916BCE}
+	EndGlobalSection
+EndGlobal

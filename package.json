@@ -1,0 +1,15 @@
+{
+  "name": "government-benefit-calculator-web-app",
+  "version": "0.0.0",
+  "description": "GovernmentBenefitCalculatorWebApp",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  },
+  "devDependencies": {
+    "jest": "^28.1.2"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
