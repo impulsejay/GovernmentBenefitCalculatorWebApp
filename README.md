@@ -7,8 +7,9 @@
 
 ##Test
 1. Open the Package Manager Console.
-2. Enter "npm test".
+2. Once done, Enter "npm test".
 3. The test result from the file(benefitCalculator.test.js) will be shown.
+4. In any case if "npm test" command doesnt work, enter "npm install --save-dev jest" to install the jest framework package and retry step 2.
 
 ##Assumptions and Design Decisions
 1. I would split the codes based on MVC pattern where it contains Model, View and Controller but in this case i did not include the View portion

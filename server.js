@@ -76,6 +76,7 @@ http.createServer(function (req, res) {
                 }
             }
 
+            //check values against the criteria to determine the benefits allowed for this person
             currentAllowedBenefits = benefitCalculator(personArray[count].age, personArray[count].isCitizen, personArray[count].floor, personArray[count].unit, personArray[count].postalCode, personArray[count].incomePerMonth, totalFamilyIncomePerMonth);
 
             res.write('Test case ' + currentTestCaseCount + ': ' + currentAllowedBenefits + '\n');
@@ -86,10 +87,7 @@ http.createServer(function (req, res) {
             }
         }
     } catch (err) {
-        console.error(err);
+        console.error("Inside server.js : error - " + err);
     }
 
 }).listen(port);
-
-//}
-//exports.startServer = startServer;

@@ -1,9 +1,6 @@
 const benefitCalculator = require('../controller/benefitCalculatorLogic.js');
 
-/*test('Test 1 - Person who should only get retirement benefit', () => {
-    expect(benefitCalculator(70, 1, 2, 204, 750347, 5000, 5000)).toBe('Retirement Benefit');
-});*/
-
+//Suite to test on the logic of benefitCalulator to get expected result 
 describe('Test Suite 1', function () {
     it("Test 1 - Person who should only get Children Voucher", function () {
         expect(benefitCalculator(13, 1, 9, 208, 750348, 0, 0)).toBe('Children Voucher');
@@ -22,7 +19,6 @@ describe('Test Suite 1', function () {
     });
 
     it("Test 5 - Person who should only get Retirement Benefit", function () {
-        //expect(true).toBeTruthy();
         expect(benefitCalculator(70, 1, 2, 204, 750347, 5000, 5000)).toBe('Retirement Benefit');
     });
 

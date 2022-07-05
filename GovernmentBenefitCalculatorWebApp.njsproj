@@ -32,7 +32,6 @@
     <Content Include="model\Person.js">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="server_backup.js" />
     <Content Include="server.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
